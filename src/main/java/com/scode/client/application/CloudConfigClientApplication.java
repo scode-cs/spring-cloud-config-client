@@ -1,4 +1,4 @@
-package com.scode.client.cloudconfigclient;
+package com.scode.client.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
