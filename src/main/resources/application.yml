@@ -5,6 +5,9 @@ spring:
   application:
     name: client-app
 
+  profiles:
+    active:
+
   cloud:
     config:
       uri: http://localhost:8888

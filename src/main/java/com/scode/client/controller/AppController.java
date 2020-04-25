@@ -1,5 +1,6 @@
 package com.scode.client.controller;
 
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -13,6 +14,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api")
+@Api(value = "AppDataController", tags = "AppDataController")
 public class AppController {
 
     @Value("${application.data.source}")
