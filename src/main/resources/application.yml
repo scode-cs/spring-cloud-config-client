@@ -4,3 +4,11 @@ server:
 spring:
   application:
     name: client-app
+
+  cloud:
+    config:
+      uri: http://localhost:8888
+
+application:
+  data:
+    source: Loaded-from-local
